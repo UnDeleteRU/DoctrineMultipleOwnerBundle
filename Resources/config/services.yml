@@ -1,0 +1,7 @@
+parameters:
+    doctrine.owner.finder.class: Undelete\DoctrineMultipleOwnerBundle\Service\OwnerFinder
+
+services:
+    doctrine.owner.finder:
+        class: %doctrine.owner.finder.class%
+        arguments: [@doctrine.orm.default_entity_manager]

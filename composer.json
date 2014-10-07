@@ -1,0 +1,17 @@
+{
+    "name": "undelete/doctrine-multiple-owner-bundle",
+    "description": "Bundle",
+    "authors": [
+        {
+            "name": "Alexandr Alexeev",
+            "email": "undelete.jotm@gmail.com"
+        }
+    ],
+    "target-dir": "Undelete/DoctrineMultipleOwnerBundle",
+    "autoload": {
+        "psr-0": { "Undelete\\DoctrineMultipleOwnerBundle": "" }
+    },
+    "require": {
+        "doctrine/doctrine-bundle": "~1.0"
+    }
+}
